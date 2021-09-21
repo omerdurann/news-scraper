@@ -1,0 +1,638 @@
+[
+    {
+        "agency": "Anadolu Ajansı",
+        "visiter_count": "7440000",
+        "field_queries": {
+            "title": ".detay-spot-category h1",
+            "summary": ".detay-spot-category h4",
+            "content": ".detay-icerik",
+            "author": ".detay-spot-category .row span:not(.tarih)",
+            "author_replace_key": "|",
+            "city": ".detay-icerik > h6",
+            "related_topics": ".detay-paylas",
+            "date": "",
+            "category": ".detay-spot-category span a"
+        },
+        "removing_fields": [".detay-icerik > h6", ".detay-icerik .detay-foto-editor", ".detay-icerik .detay-paylas", "script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=guncel"
+            },
+            {
+                "category": "Dünya",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=dunya"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=ekonomi"
+            },
+            {
+                "category": "Spor",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=spor"
+            },
+            {
+                "category": "Kültür & Sanat",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=kultur-sanat"
+            },
+            {
+                "category": "Analiz",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=analiz"
+            },
+            {
+                "category": "Bilim & Teknoloji",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=bilim-teknoloji"
+            },
+            {
+                "category": "Türkiye",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=turkiye"
+            },
+            {
+                "category": "Futbol",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=futbol"
+            },
+            {
+                "category": "Basketbol",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=basketbol"
+            },
+            {
+                "category": "Dünya'dan Spor",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=dunyadan-spor"
+            },
+            {
+                "category": "Sağlık",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=saglik"
+            },
+            {
+                "category": "Politika",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=politika"
+            },
+            {
+                "category": "Eğitim",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=egitim"
+            },
+            {
+                "category": "Yaşam",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=yasam"
+            },
+            {
+                "category": "Kurumsal",
+                "source": "https://www.aa.com.tr/tr/rss/default?cat=kurumsal-haberler"
+            }
+        ]
+    },
+    {
+        "agency": "BBC Türkçe",
+        "visiter_count": "376030000",
+        "field_queries": {
+            "title": ".story-body .story-body__h1",
+            "summary": ".story-body .story-body__introduction",
+            "content": ".story-body .story-body__inner",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".tags-list ",
+            "date": "",
+            "category": ""
+        },
+        "removing_fields": [".story-body .story-body__unordered-list", ".story-body .story-body__introduction", "figure", ".story-body script", "script", "style", "iframe", ".social-embed"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "http://feeds.bbci.co.uk/turkce/rss.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Balkan Günlüğü Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".single_item .singular_title_v2",
+            "summary": "",
+            "content": ".content_inner_section_salt",
+            "author": ".author_bio_module .name a",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ""
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "http://balkangunlugu.com/feed"
+            }
+        ]
+    },
+    {
+        "agency": "Birgün Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".haber-detay .title",
+            "summary": ".haber-detay .description",
+            "content": ".haber-detay .body",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".haber-detay .tags",
+            "date": "",
+            "category": ".haber-detay .line .category"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.birgun.net/xml/rss.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Şikayetvar",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".quickPreviewContainer .title",
+            "summary": ".quickPreviewContainer .description",
+            "content": "",
+            "author": ".info-block .user span",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".quickPreviewContainer .hashtags",
+            "date": "",
+            "category": ".breadcrumbs ul li:nth-child(2) a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.sikayetvar.com/rss"
+            }
+        ]
+    },
+    {
+        "agency": "Cumhuriyet Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".container .col-sm-8.col-md-8.col-lg-8 h1.baslik",
+            "summary": ".container .col-sm-8.col-md-8.col-lg-8 .spot",
+            "content": ".container .col-sm-8.col-md-8.col-lg-8 .haberMetni",
+            "author": ".container .col-sm-8.col-md-8.col-lg-8 .haberKaynagi",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ""
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "http://www.cumhuriyet.com.tr/rss/"
+            }
+        ]
+    },
+    {
+        "agency": "Dünya Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": "article h1",
+            "summary": "article h2",
+            "content": "article .artc-cnt",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".breadcrumb li:nth-child(3) a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.dunya.com/rss"
+            }
+        ]
+    },
+    {
+        "agency": "Kadınlar Kulübü",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".p-body-header .p-title-value",
+            "summary": "",
+            "content": ".message-content",
+            "author": ".username",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".tagList .js-tagList",
+            "date": "",
+            "category": ".p-breadcrumbs li:last-child a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.kadinlarkulubu.com/forum/forums/-/index.rss"
+            }
+        ]
+    },
+    {
+        "agency": "Kızlar Soruyor",
+        "visiter_count": "",
+        "field_queries": {
+            "title": "#post-content #content-header .title",
+            "summary": "#post-content .post-body [itemprop=text]",
+            "content": "",
+            "author": "#post-user-profile .name",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": "#content-header .topics a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.kizlarsoruyor.com/rss"
+            }
+        ]
+    },
+    {
+        "agency": "Evrensel",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".container #metin h1",
+            "summary": ".container #metin .spot h2",
+            "content": ".container .haber-metin",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".container .cats li a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.evrensel.net/rss/haber_guncel.xml"
+            },
+            {
+                "category": "İşçi-Sendika",
+                "source": "https://www.evrensel.net/rss/haber_isci-sendika.xml"
+            },
+            {
+                "category": "Politika",
+                "source": "https://www.evrensel.net/rss/haber_politika.xml"
+            },
+            {
+                "category": "Bölgesel Haberler",
+                "source": "https://www.evrensel.net/rss/haber_bolge.xml"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "https://www.evrensel.net/rss/haber_ekonomi.xml"
+            },
+            {
+                "category": "Dünya",
+                "source": "https://www.evrensel.net/rss/haber_dunya.xml"
+            },
+            {
+                "category": "Kültür & Sanat",
+                "source": "https://www.evrensel.net/rss/haber_kultur.xml"
+            },
+            {
+                "category": "Medya",
+                "source": "https://www.evrensel.net/rss/haber_medya.xml"
+            },
+            {
+                "category": "Kadın",
+                "source": "https://www.evrensel.net/rss/haber_kadin.xml"
+            },
+            {
+                "category": "Yaşam",
+                "source": "https://www.evrensel.net/rss/haber_yasam.xml"
+            },
+            {
+                "category": "Spor",
+                "source": "https://www.evrensel.net/rss/haber_spor.xml"
+            },
+            {
+                "category": "Çevre",
+                "source": "https://www.evrensel.net/rss/haber_cevre.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Gerçek Gündem",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".article .article-header h1",
+            "summary": ".article .article-header .article-excerpt",
+            "content": ".article .article-body",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".article .article-header .article-category a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.gercekgundem.com/rss"
+            }
+        ]
+    },
+    {
+        "agency": "Hürriyet",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".container .rhd-article-header .rhd-article-title",
+            "summary": ".container .rhd-sticky-limit .rhd-article-spot",
+            "content": ".container .rhd-sticky-limit .rhd-all-article-detail",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".rhd-article-tag-box.cf",
+            "date": "",
+            "category": ".container .rhd-article-header .rhd-category-box a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Gündem",
+                "source": "http://www.hurriyet.com.tr/rss/gundem"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "http://www.hurriyet.com.tr/rss/ekonomi"
+            },
+            {
+                "category": "Magazin",
+                "source": "http://www.hurriyet.com.tr/rss/magazin"
+            },
+            {
+                "category": "Spor",
+                "source": "http://www.hurriyet.com.tr/rss/spor"
+            },
+            {
+                "category": "Dünya",
+                "source": "http://www.hurriyet.com.tr/rss/dunya"
+            },
+            {
+                "category": "Teknoloji",
+                "source": "http://www.hurriyet.com.tr/rss/teknoloji"
+            },
+            {
+                "category": "Sağlık",
+                "source": "http://www.hurriyet.com.tr/rss/saglik"
+            },
+            {
+                "category": "Astroloji",
+                "source": "http://www.hurriyet.com.tr/rss/astroloji"
+            }
+        ]
+    },
+    {
+        "agency": "Önce Vatan",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".container .page-header .title",
+            "summary": ".container .page-header .lead",
+            "content": ".container .page-content",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".keywords",
+            "date": "",
+            "category": ""
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.oncevatan.com.tr/rss.php"
+            }
+        ]
+    },
+    {
+        "agency": "Sabah Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".topDetail .pageTitle",
+            "summary": ".topDetail .spot",
+            "content": ".topDetail .newsDetailText .newsBox",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".authorDetail .category"
+        },
+        "removing_fields": ["script", "style", "figure", ".dailyManset", ".todayNewsVideo", ".newsImage"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.sabah.com.tr/rss/anasayfa.xml"
+            },
+            {
+                "category": "Son Dakika",
+                "source": "https://www.sabah.com.tr/rss/sondakika.xml"
+            },
+            {
+                "category": "Günün İçinden",
+                "source": "https://www.sabah.com.tr/rss/gununicinden.xml"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "https://www.sabah.com.tr/rss/ekonomi.xml"
+            },
+            {
+                "category": "Gündem",
+                "source": "https://www.sabah.com.tr/rss/gundem.xml"
+            },
+            {
+                "category": "Siyaset",
+                "source": "https://www.sabah.com.tr/rss/siyaset.xml"
+            },
+            {
+                "category": "Dünya",
+                "source": "https://www.sabah.com.tr/rss/dunya.xml"
+            },
+            {
+                "category": "Spor",
+                "source": "https://www.sabah.com.tr/rss/spor.xml"
+            },
+            {
+                "category": "Teknoloji",
+                "source": "https://www.sabah.com.tr/rss/teknoloji.xml"
+            },
+            {
+                "category": "Otomobil",
+                "source": "https://www.sabah.com.tr/rss/otomobil.xml"
+            },
+            {
+                "category": "Magazin",
+                "source": "https://www.sabah.com.tr/rss/magazin.xml"
+            },
+            {
+                "category": "Sağlık",
+                "source": "https://www.sabah.com.tr/rss/saglik.xml"
+            },
+            {
+                "category": "Günaydın",
+                "source": "https://www.sabah.com.tr/rss/gunaydin.xml"
+            },
+            {
+                "category": "Cumartesi",
+                "source": "https://www.sabah.com.tr/rss/cumartesi.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Takvim Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".content .header #haberTitle",
+            "summary": ".content .header #haberSpot",
+            "content": ".content #contextual",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".content .detailHeader .categoryBox"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Ana Sayfa",
+                "source": "https://www.takvim.com.tr/rss/anasayfa.xml"
+            },
+            {
+                "category": "Güncel",
+                "source": "https://www.takvim.com.tr/rss/guncel.xml"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "https://www.takvim.com.tr/rss/ekonomi.xml"
+            },
+            {
+                "category": "Spor",
+                "source": "https://www.takvim.com.tr/rss/spor.xml"
+            },
+            {
+                "category": "Saklambaç",
+                "source": "https://www.takvim.com.tr/rss/saklambac.xml"
+            },
+            {
+                "category": "Son 24 Saat",
+                "source": "https://www.takvim.com.tr/rss/son24saat.xml"
+            },
+            {
+                "category": "Yaşam",
+                "source": "https://www.takvim.com.tr/rss/yasam.xml"
+            },
+            {
+                "category": "Televizyon",
+                "source": "https://www.takvim.com.tr/rss/televizyon.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Türkiye Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".news-container .page_title",
+            "summary": ".news-container .article_abstract",
+            "content": ".news-container .article-body",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ""
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.turkiyegazetesi.com.tr/rss/rss.xml"
+            }
+        ]
+    },
+    {
+        "agency": "Yeniçağ Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".page-content .middle_content_title h1",
+            "summary": ".page-content .news_detail .short_content",
+            "content": ".page-content .news_detail #news_content",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": ".news_label .inner",
+            "date": "",
+            "category": ".nav span a"
+        },
+        "removing_fields": ["script", "style", "figure"],
+        "rss": [
+            {
+                "category": "Güncel",
+                "source": "https://www.yenicaggazetesi.com.tr/rss"
+            }
+        ]
+    },
+    {
+        "agency": "Yeni Şafak Gazetesi",
+        "visiter_count": "",
+        "field_queries": {
+            "title": ".heading .title",
+            "summary": ".heading .spot",
+            "content": "article .text",
+            "author": "",
+            "author_replace_key": "",
+            "city": "",
+            "related_topics": "",
+            "date": "",
+            "category": ".category a"
+        },
+        "removing_fields": ["script", "style", "figure", ".inside-news"],
+        "rss": [
+            {
+                "category": "Ana Sayfa",
+                "source": "https://www.yenisafak.com/rss"
+            },
+            {
+                "category": "Manşet",
+                "source": "https://www.yenisafak.com/rss?xml=manset"
+            },
+            {
+                "category": "Gündem",
+                "source": "https://www.yenisafak.com/rss?xml=gundem"
+            },
+            {
+                "category": "Spor",
+                "source": "https://www.yenisafak.com/rss?xml=spor"
+            },
+            {
+                "category": "Ekonomi",
+                "source": "https://www.yenisafak.com/rss?xml=ekonomi"
+            },
+            {
+                "category": "Teknoloji",
+                "source": "https://www.yenisafak.com/rss?xml=teknoloji"
+            },
+            {
+                "category": "Hayat",
+                "source": "https://www.yenisafak.com/rss?xml=hayat"
+            },
+            {
+                "category": "Dünya",
+                "source": "https://www.yenisafak.com/rss?xml=dunya"
+            }
+        ]
+    }
+]
